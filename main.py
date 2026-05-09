@@ -185,8 +185,8 @@ class Config:
     # ── STAKE / MARTINGALE ────────────────────────────────────────────────────
     # Ladder: $0.35 → $0.53 → $0.79 → halt
     base_stake:          float = 0.35
-    martingale_factor:   float = 1.50
-    martingale_steps:    int   = 2
+    martingale_factor:   float = 2.1
+    martingale_steps:    int   = 5
     max_balance_pct:     float = 0.10
 
     # ── RISK ─────────────────────────────────────────────────────────────────
