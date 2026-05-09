@@ -122,7 +122,7 @@ class Config:
     api_url: str = "wss://ws.binaryws.com/websockets/v3"
 
     # ── CONTRACT ──────────────────────────────────────────────────────────────
-    symbol:        str   = "R_100"
+    symbol:        str   = "R_10"
     duration:      int   = 1           # 1 tick
     currency:      str   = "USD"
     # "over2"  → DIGITOVER 2  (digit must be 3-9  → base P ≈ 0.70)
