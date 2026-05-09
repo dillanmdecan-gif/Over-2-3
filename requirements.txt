@@ -1,0 +1,6 @@
+websockets
+pandas
+numpy
+scipy
+colorama
+python-dotenv
