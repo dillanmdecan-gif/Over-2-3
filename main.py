@@ -186,12 +186,12 @@ class Config:
     # Ladder: $0.35 → $0.53 → $0.79 → halt
     base_stake:          float = 1.0
     martingale_factor:   float = 2.99
-    martingale_steps:    int   = 4
+    martingale_steps:    int   = 5
     max_balance_pct:     float = 0.10
 
     # ── RISK ─────────────────────────────────────────────────────────────────
     loss_cooldown_ticks:    int   = 8
-    max_consecutive_losses: int   = 2
+    max_consecutive_losses: int   = 5
     max_daily_loss_pct:     float = 0.15
     balance_guard_mult:     int   = 6
 
