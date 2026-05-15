@@ -83,7 +83,7 @@ log = logging.getLogger("adaptbot")
 # ─────────────────────────────────────────────────────────────────────────────
 # STATIC SYMBOL LIST
 # ─────────────────────────────────────────────────────────────────────────────
-SYMBOLS = ["R_10", "R_25", "R_100"]
+SYMBOLS = ["R_100"]
 
 # Bootstrap priors seeded from collected data (255 min / 191 739 ticks).
 # These are STARTING points only — the live collector overwrites them quickly.
