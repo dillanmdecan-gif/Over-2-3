@@ -194,7 +194,7 @@ class Config:
     loss_cooldown_ticks:    int   = 5
     max_consecutive_losses: int   = 3
     max_daily_loss_pct:     float = 0.15
-    balance_guard_mult:     int   = 6
+    balance_guard_mult:     int   = 3
 
     # ── PERSISTENCE ───────────────────────────────────────────────────────────
     state_dir:    str = "."
