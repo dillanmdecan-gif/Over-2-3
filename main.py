@@ -83,7 +83,7 @@ log = logging.getLogger("adaptbot")
 # ─────────────────────────────────────────────────────────────────────────────
 # STATIC SYMBOL LIST
 # ─────────────────────────────────────────────────────────────────────────────
-SYMBOLS = ["R_10",  "R_100"]
+SYMBOLS = ["R_100"]
 
 # Bootstrap priors seeded from collected data (255 min / 191 739 ticks).
 # These are STARTING points only — the live collector overwrites them quickly.
@@ -194,7 +194,7 @@ class Config:
     loss_cooldown_ticks:    int   = 5
     max_consecutive_losses: int   = 3
     max_daily_loss_pct:     float = 0.15
-    balance_guard_mult:     int   = 3
+    balance_guard_mult:     int   = 0
 
     # ── PERSISTENCE ───────────────────────────────────────────────────────────
     state_dir:    str = "."
