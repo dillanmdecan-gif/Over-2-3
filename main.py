@@ -199,13 +199,13 @@ class Config:
 
     # Stake / martingale
     base_stake:        float = 0.35
-    martingale_factor: float = 1.50
-    martingale_steps:  int   = 2     # $0.35 → $0.53 → $0.79 → halt
+    martingale_factor: float = 2.1
+    martingale_steps:  int   = 3     # $0.35 → $0.53 → $0.79 → halt
     max_balance_pct:   float = 0.10
 
     # Risk
-    loss_cooldown_ticks:    int   = 4
-    max_consecutive_losses: int   = 2
+    loss_cooldown_ticks:    int   = 9
+    max_consecutive_losses: int   = 4
     max_daily_loss_pct:     float = 0.15
     balance_guard_mult:     int   = 0
 
